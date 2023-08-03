@@ -22,6 +22,7 @@ def plot_array(index, array_to_plot):
     plt.show()
 def plot_array_10(index, array_to_plot):
     plt.plot(index, array_to_plot)
+    #that's what I call testing
     plt.xlabel('index')
     plt.ylabel('values')
     plt.ylim(10,-10)
